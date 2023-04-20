@@ -1,0 +1,48 @@
+.my-button-operation, .my-button-numerical, .my-button-scientific
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #448;
+    color: #333;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0 6px #444;
+    opacity: 0.9;
+    transition: 0.3s;
+    color: white;
+  }
+
+  .my-button-operation:active, .my-button-numerical:active, .my-button-scientific:active
+  {
+    box-shadow: 0 5px #222;
+    transform: translateY(4px);
+  }
+  .my-button-operation:hover, .my-button-numerical:hover, .my-button-scientific:hover
+  {
+    opacity: 0.7;
+    border: 2px solid black;
+  }
+  
+  .my-button-numerical{
+    background-color: #c92;
+    color: black;
+    font-size: 40pt;
+    font-weight:bold;
+  }
+  
+  .my-button-operation{
+    font-size: 30pt;
+    font-weight:bold;
+  }
+  .my-button-scientific{
+    background-color: #173;
+    font-size: 20pt;
+    font-weight:bold;
+  }

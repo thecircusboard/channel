@@ -1,0 +1,21 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./digital-dream.skew.ttf');
+}
+.result-box{
+    border-radius: 10px;
+    width: 506px;
+    height: 70px;
+    background-color:rgb(51, 51, 51);
+    font-size: 35pt;
+    border: 2px solid transparent;
+    margin:10px;
+    color:antiquewhite;
+    transition: 0.3s;
+    text-indent: 10px;
+    font-family: digital-clock-font;
+    line-height: 70px;
+}
+.result-box:hover{
+    border: 2px solid #CCC;
+}
