@@ -63,6 +63,9 @@
 }
 .page {
   background-color: solid #101010;
+  position: absolute;
+  width: 550px;
+  left: calc(50% - 275px);
 }
 /* display: flex;
 justify-content: space-between;
