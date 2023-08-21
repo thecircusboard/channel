@@ -1,11 +1,11 @@
 {
-  "name": "feeder.gg",
+  "name": "feeder-be",
   "version": "1.0.0",
-  "description": "League of legends web app!",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "The Circus Board",
   "license": "ISC"
 }
